@@ -1,0 +1,15 @@
+{
+  "name": "@ribeiroevandro/components",
+  "version": "0.0.1",
+  "description": "Base components for Expo projects",
+  "author": "Evandro Ribeiro <oi@ribeiroevandro.com.br>",
+  "license": "MIT",
+  "homepage": "https://github.com/ribeiroevandro/components#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ribeiroevandro/components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ribeiroevandro/components/issues"
+  }
+}
