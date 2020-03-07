@@ -1,6 +1,6 @@
 {
   "name": "@ribeiroevandro/components",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "Base components for Expo projects",
   "author": "Evandro Ribeiro <oi@ribeiroevandro.com.br>",
   "license": "MIT",
@@ -11,5 +11,25 @@
   },
   "bugs": {
     "url": "https://github.com/ribeiroevandro/components/issues"
+  },
+  "dependencies": {
+    "@unform/core": "^2.0.0",
+    "@unform/mobile": "^2.0.0"
+  },
+  "peerDependencies": {
+    "prop-types": "*",
+    "react": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.1.tar.gz",
+    "styled-components": "*"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.3"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
